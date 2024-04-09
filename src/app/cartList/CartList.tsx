@@ -12,7 +12,6 @@ const CartList = () => {
     variables: { cartId },
     pause: !cartId,
   });
-  console.log(data, "data is her");
   useEffect(() => {
     const cartIdInLocalStorage = localStorage.getItem("cartId");
 
